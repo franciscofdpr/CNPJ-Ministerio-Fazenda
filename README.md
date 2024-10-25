@@ -5,7 +5,7 @@
 Este repositório contém um script Python para processar arquivos de dados do CNPJ, carregá-los no DuckDB e geocodificar endereços para análise posterior. O script está organizado em duas partes principais:
 
 1. **Importação e Transformação de Dados**: Utiliza o DuckDB para carregar, transformar e exportar dados de arquivos CSV do CNPJ.
-2. **Geocodificação**: Geocodifica registros selecionados do CNPJ usando a API `iocasta.com.br` e exporta os resultados para um arquivo CSV.
+2. **Geocodificação**: Geocodifica registros selecionados do CNPJ usando o Nominatim e a API `iocasta.com.br` e exporta os resultados para um arquivo CSV.
 
 ### Estrutura do Projeto
 
