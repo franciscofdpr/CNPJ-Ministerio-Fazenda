@@ -1,8 +1,6 @@
-# README
+# README - Script de Processamento de Dados e Geolocalização
 
-## Script de Processamento de Dados do CNPJ e Geocodificação
-
-Este repositório contém um script Python para processar arquivos de dados do CNPJ, carregá-los no DuckDB e geocodificar endereços para análise posterior. O script está organizado em duas partes principais:
+Este repositório contém um script Python para processar arquivos de dados de CNPJ do Ministério da Fazenda, carregá-los no DuckDB e geolocalizar endereços para análise posterior. O script está organizado em duas partes principais:
 
 1. **Importação e Transformação de Dados**: Utiliza o DuckDB para carregar, transformar e exportar dados de arquivos CSV do CNPJ.
 2. **Geocodificação**: Geocodifica registros selecionados do CNPJ usando o Nominatim e a API `iocasta.com.br` e exporta os resultados para um arquivo CSV.
