@@ -1,4 +1,4 @@
-# README - Script de Processamento de Dados e Geolocalização
+# README - Geolocalização de Endereços
 
 Este repositório contém um script Python para processar arquivos de dados de CNPJ do Ministério da Fazenda, carregá-los no DuckDB e geolocalizar endereços para análise posterior. O script está organizado em duas partes principais:
 
